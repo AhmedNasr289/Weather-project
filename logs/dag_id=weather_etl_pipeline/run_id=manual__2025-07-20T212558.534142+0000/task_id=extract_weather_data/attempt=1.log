@@ -1,0 +1,226 @@
+{"timestamp":"2025-07-20T21:25:59.908227","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T21:25:59.908755","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T21:25:59.934989Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:25:59.936191Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:25:59.936604Z","level":"info","event":"Current task name:extract_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:25:59.937112Z","level":"info","event":"Dag name:weather_etl_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.809264Z","level":"info","event":"Dropped and recreated staging.weather_data table.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.820798Z","level":"info","event":"Loaded 192 cities.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.821634Z","level":"info","event":"API status code for Zefta: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.822380Z","level":"info","event":"API status code for Wasit: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.822758Z","level":"info","event":"API status code for Toukh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.823736Z","level":"info","event":"API status code for Tanda: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.824224Z","level":"info","event":"API status code for Ţāmiyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.824663Z","level":"info","event":"API status code for Ţalkhā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.825088Z","level":"info","event":"API status code for Talā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.825396Z","level":"info","event":"API status code for Ţahţā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.825865Z","level":"info","event":"API status code for Sumusţā as Sulţānī: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.826950Z","level":"info","event":"API status code for Muḩāfaz̧at Sūhāj: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.827335Z","level":"info","event":"API status code for Sohag: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.827643Z","level":"info","event":"API status code for Siwa Oasis: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.828128Z","level":"info","event":"API status code for Sīdī Sālim: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.828838Z","level":"info","event":"API status code for Shirbīn: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.831578Z","level":"info","event":"API status code for Shibīn al Qanāṭir: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.832542Z","level":"info","event":"API status code for Shibīn al Kawm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.833088Z","level":"info","event":"API status code for Sharm el-Sheikh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.833754Z","level":"info","event":"API status code for Muḩāfaz̧at Shamāl Sīnā’: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.834202Z","level":"info","event":"API status code for Sarābiyūm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.835229Z","level":"info","event":"API status code for Samannūd: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.835705Z","level":"info","event":"API status code for Samālūţ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.836228Z","level":"info","event":"API status code for Sāḩil Ţahţā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.836571Z","level":"info","event":"API status code for Rosetta: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.837057Z","level":"info","event":"API status code for Quwaysinā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.837527Z","level":"info","event":"API status code for Quţūr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.837879Z","level":"info","event":"API status code for Kousa: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.838670Z","level":"info","event":"API status code for Muḩāfaz̧at Qinā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.840008Z","level":"info","event":"API status code for Qinā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.840319Z","level":"info","event":"API status code for Qaşr al Farāfirah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.840694Z","level":"info","event":"API status code for Qalyūb: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.841425Z","level":"info","event":"API status code for Nuwaybi‘a: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.841863Z","level":"info","event":"API status code for Nişf Atrīb: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.842703Z","level":"info","event":"API status code for Naj‘ Tinjār: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.843323Z","level":"info","event":"API status code for Naja' Ḥammādī: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.843710Z","level":"info","event":"API status code for Naj‘ al Khuţbah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.844567Z","level":"info","event":"API status code for Minyat an Naşr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.845196Z","level":"info","event":"API status code for Munūf: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.845644Z","level":"info","event":"API status code for Muḩāfaz̧at Maţrūḩ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.846396Z","level":"info","event":"API status code for Maţāy: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.847125Z","level":"info","event":"API status code for Mashtūl as Sūq: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.847911Z","level":"info","event":"API status code for Mersa Matruh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.848322Z","level":"info","event":"API status code for Marsa Alam: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.848704Z","level":"info","event":"API status code for Manfalūţ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.849068Z","level":"info","event":"API status code for Mallawī: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.849888Z","level":"info","event":"API status code for Madīnat Sittah Uktūbar: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.850407Z","level":"info","event":"API status code for Madīnat as Sādāt: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.851027Z","level":"info","event":"API status code for Kawm Umbū: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.851674Z","level":"info","event":"API status code for Kawm Ḩamādah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.852410Z","level":"info","event":"API status code for Kafr Shukr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.852985Z","level":"info","event":"API status code for Kafr Şaqr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.854381Z","level":"info","event":"API status code for Kafr az Zayyāt: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.855139Z","level":"info","event":"API status code for Kafr ash Shaykh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.855711Z","level":"info","event":"API status code for Kafr ash Shaykh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.856163Z","level":"info","event":"API status code for Kafr ad Dawwār: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.856619Z","level":"info","event":"API status code for Juhaynah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.856901Z","level":"info","event":"API status code for Al Jubayl: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.857929Z","level":"info","event":"API status code for Jizayy: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.858622Z","level":"info","event":"API status code for Jirjā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.859070Z","level":"info","event":"API status code for South Sinai Governorate: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.859735Z","level":"info","event":"API status code for ‘Izbat al Burj: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.860811Z","level":"info","event":"API status code for Iţsā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.861471Z","level":"info","event":"API status code for Isnā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.861858Z","level":"info","event":"API status code for Idkū: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.862307Z","level":"info","event":"API status code for Ibshawāy: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.862996Z","level":"info","event":"API status code for Ḩalwān: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.863471Z","level":"info","event":"API status code for Hihyā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.864255Z","level":"info","event":"API status code for Ḩawsh ‘Īsá: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.864974Z","level":"info","event":"API status code for Fuwwah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.865557Z","level":"info","event":"API status code for Farshūţ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.866123Z","level":"info","event":"API status code for Fāraskūr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.866448Z","level":"info","event":"API status code for Fāqūs: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.867019Z","level":"info","event":"API status code for ‘Ezbet el-Auqât: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.867957Z","level":"info","event":"API status code for ‘Izbat Abū ‘Aţwah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.868391Z","level":"info","event":"API status code for El-Qushlâqât: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.869507Z","level":"info","event":"API status code for Arab Republic of Egypt: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.870353Z","level":"info","event":"API status code for Damietta Governorate: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.871867Z","level":"info","event":"API status code for Damietta: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.872327Z","level":"info","event":"API status code for Diyarb Najm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.872897Z","level":"info","event":"API status code for Disūq: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.873282Z","level":"info","event":"API status code for Dishnā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.873712Z","level":"info","event":"API status code for Dikirnis: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.874090Z","level":"info","event":"API status code for Dahab: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.874444Z","level":"info","event":"API status code for Dayrūţ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.874847Z","level":"info","event":"API status code for Dayr Mawās: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.875188Z","level":"info","event":"API status code for Dawwār Abū al ‘Āşī: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.875705Z","level":"info","event":"API status code for Damanhūr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.876213Z","level":"info","event":"API status code for Būsh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.876494Z","level":"info","event":"API status code for Muḩāfaz̧at Būr Sa‘īd: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.876837Z","level":"info","event":"API status code for Port Said: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.877112Z","level":"info","event":"API status code for Safaga: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.877333Z","level":"info","event":"API status code for Bilqās: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.877569Z","level":"info","event":"API status code for Bilbays: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.877838Z","level":"info","event":"API status code for Basyūn: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.878319Z","level":"info","event":"API status code for Muḩāfaz̧at Banī Suwayf: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.878668Z","level":"info","event":"API status code for Banī Suwayf: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.878940Z","level":"info","event":"API status code for Banī Mazār: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.879211Z","level":"info","event":"API status code for Banī Ghālib: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.879686Z","level":"info","event":"API status code for Banhā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.880229Z","level":"info","event":"API status code for Balţīm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.880567Z","level":"info","event":"API status code for Bāhā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.881006Z","level":"info","event":"API status code for Zagazig: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.881426Z","level":"info","event":"API status code for Awsīm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.881735Z","level":"info","event":"API status code for El-Tor: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.882160Z","level":"info","event":"API status code for At Tall al Kabīr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.882634Z","level":"info","event":"API status code for Muḩāfaz̧at Asyūţ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.883160Z","level":"info","event":"API status code for Asyūţ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.883696Z","level":"info","event":"API status code for Muḩāfaz̧at Aswān: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.884305Z","level":"info","event":"API status code for Aswan: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.884802Z","level":"info","event":"API status code for Suez: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.885279Z","level":"info","event":"API status code for As Suways: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.885767Z","level":"info","event":"API status code for Aş Şaff: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.886176Z","level":"info","event":"API status code for Aşlān: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.886461Z","level":"info","event":"API status code for Ash Shuhadā’: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.886842Z","level":"info","event":"API status code for Ash Shāţibī: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.887113Z","level":"info","event":"API status code for Muḩāfaz̧at ash Sharqīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.887463Z","level":"info","event":"API status code for Ashmūn: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.887704Z","level":"info","event":"API status code for Al Wāsiţah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.887954Z","level":"info","event":"API status code for Muḩāfaz̧at al Wādī al Jadīd: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.888236Z","level":"info","event":"API status code for Luxor: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.888476Z","level":"info","event":"API status code for Al Qūşīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.888722Z","level":"info","event":"API status code for Al Quşayr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.888994Z","level":"info","event":"API status code for Al Qurayn: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.889276Z","level":"info","event":"API status code for Al Qanāyāt: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.889476Z","level":"info","event":"API status code for Al Qanāţir al Khayrīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.889684Z","level":"info","event":"API status code for Muḩāfaz̧at al Qalyūbīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.889895Z","level":"info","event":"API status code for Cairo: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.890047Z","level":"info","event":"API status code for Cairo Governorate: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.890286Z","level":"info","event":"API status code for Al Minyā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.890496Z","level":"info","event":"API status code for Muḩāfaz̧at al Minyā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.890669Z","level":"info","event":"API status code for Muḩāfaz̧at al Minūfīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.890823Z","level":"info","event":"API status code for Al Maţarīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.891058Z","level":"info","event":"API status code for Al Manzalah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.891228Z","level":"info","event":"API status code for Al Manşūrah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.891375Z","level":"info","event":"API status code for Al Manshāh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.891542Z","level":"info","event":"API status code for Al Maḩallah al Kubrá: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.891729Z","level":"info","event":"API status code for Al Khārijah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.891911Z","level":"info","event":"API status code for Al Khānkah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.892084Z","level":"info","event":"API status code for Giza: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.892272Z","level":"info","event":"API status code for Muḩāfaz̧at al Jīzah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.892508Z","level":"info","event":"API status code for Al Janādilah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.892707Z","level":"info","event":"API status code for Al Jammālīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.893054Z","level":"info","event":"API status code for Ismailia: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.893307Z","level":"info","event":"API status code for Ismailia Governorate: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.893524Z","level":"info","event":"API status code for Alexandria: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.893725Z","level":"info","event":"API status code for Muḩāfaz̧at al Iskandarīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.893944Z","level":"info","event":"API status code for Al Ibrāhīmīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.894150Z","level":"info","event":"API status code for Al Ḩubayl: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.894333Z","level":"info","event":"API status code for Al Ḩawāmidīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.894483Z","level":"info","event":"API status code for Al Ḩāmūl: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.894659Z","level":"info","event":"API status code for Hurghada: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.894889Z","level":"info","event":"API status code for Muḩāfaz̧at al Gharbīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.895105Z","level":"info","event":"API status code for Al Fayyūm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.895394Z","level":"info","event":"API status code for Muḩāfaz̧at al Fayyūm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.895656Z","level":"info","event":"API status code for Al Fashn: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.895852Z","level":"info","event":"API status code for Beheira Governorate: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.896108Z","level":"info","event":"API status code for Al Bawīţī: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.896525Z","level":"info","event":"API status code for Al Balyanā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.896725Z","level":"info","event":"API status code for Al Bājūr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.896977Z","level":"info","event":"API status code for Red Sea Governorate: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.897158Z","level":"info","event":"API status code for Al Badārī: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.897699Z","level":"info","event":"API status code for Al ‘Ayyāţ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.897926Z","level":"info","event":"API status code for Arish: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.898132Z","level":"info","event":"API status code for Al ‘Alamayn: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.898304Z","level":"info","event":"API status code for Akhmīm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.898449Z","level":"info","event":"API status code for Ajā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.898621Z","level":"info","event":"API status code for Ad Dilinjāt: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.898846Z","level":"info","event":"API status code for Muḩāfaz̧at ad Daqahlīyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.899752Z","level":"info","event":"API status code for Abū Tīj: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.900135Z","level":"info","event":"API status code for Abu Simbel: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.900356Z","level":"info","event":"API status code for Abū Qurqāş: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.900745Z","level":"info","event":"API status code for Abū Kabīr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.901032Z","level":"info","event":"API status code for Abū Ḩammād al Maḩaţţah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.901326Z","level":"info","event":"API status code for Abū al Maţāmīr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.901614Z","level":"info","event":"API status code for Abnūb: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.901876Z","level":"info","event":"API status code for Al Wiḩdah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.902422Z","level":"info","event":"API status code for Ḩayy al Manākh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.902623Z","level":"info","event":"API status code for Idfu: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.902849Z","level":"info","event":"API status code for Syria: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.903049Z","level":"info","event":"API status code for ‘Uqrat Şafḩah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.903265Z","level":"info","event":"API status code for ‘Izbat Nādī aş Şayd: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.903463Z","level":"info","event":"API status code for Az Zarqā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.903709Z","level":"info","event":"API status code for Al Amal (Nimrah Thamāniyah): 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.903946Z","level":"info","event":"API status code for El Gouna: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.904196Z","level":"info","event":"API status code for Makadi Bay: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.904487Z","level":"info","event":"API status code for Port el Ghalib: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.905391Z","level":"info","event":"API status code for Naama Bay: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.906002Z","level":"info","event":"API status code for Ain Sukhna: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.906242Z","level":"info","event":"API status code for testing: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.906577Z","level":"info","event":"API status code for Muḩāfaz̧at al Uqşur: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.907526Z","level":"info","event":"API status code for Beheira: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.908296Z","level":"info","event":"API status code for Masākin al Akhshāb wa ash Shāy: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.908764Z","level":"info","event":"API status code for Al ‘Atabah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.909150Z","level":"info","event":"Failed to insert data into Snowflake: 002003 (42S02): SQL compilation error:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.909436Z","level":"info","event":"Table 'WEATHER_DB.STAGING.WEATHER_DATA' does not exist or not authorized.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.909776Z","level":"info","event":"Dropped and recreated staging.weather_data table.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.910432Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.910945Z","level":"error","event":"  File \"/opt/airflow/scripts/extract_weather.py\", line 110, in <module>","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.911783Z","level":"error","event":"    record_limit = int(sys.argv[3]) if len(sys.argv) > 3 else 1000","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.912192Z","level":"error","event":"^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.912582Z","level":"error","event":"  File \"/opt/airflow/scripts/extract_weather.py\", line 60, in extract_and_load","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.912891Z","level":"error","event":"    cities = load_city_list(city_list_path, country=country, limit=limit)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.913220Z","level":"error","event":"             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.913507Z","level":"error","event":"  File \"/opt/airflow/scripts/extract_weather.py\", line 11, in load_city_list","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.914066Z","level":"error","event":"    with gzip.open(city_list_path, 'rt', encoding='utf-8') as f:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.914414Z","level":"error","event":"         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.914869Z","level":"error","event":"  File \"/usr/local/lib/python3.12/gzip.py\", line 65, in open","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.915176Z","level":"error","event":"    binary_file = GzipFile(filename, gz_mode, compresslevel)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.915576Z","level":"error","event":"                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.915819Z","level":"error","event":"  File \"/usr/local/lib/python3.12/gzip.py\", line 201, in __init__","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.916111Z","level":"error","event":"    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.916399Z","level":"error","event":"                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:27.916823Z","level":"error","event":"FileNotFoundError: [Errno 2] No such file or directory: 'city.list.json.gz'","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-20T21:59:29.186645Z","level":"info","event":"Error running extract_weather.py: Command '['/home/airflow/.local/bin/python', '/opt/airflow/scripts/extract_weather.py', '/opt/airflow/scripts/city.list.json.gz']' returned non-zero exit status 1.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:29.207483","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"CalledProcessError","exc_value":"Command '['/home/airflow/.local/bin/python', '/opt/airflow/scripts/extract_weather.py', '/opt/airflow/scripts/city.list.json.gz']' returned non-zero exit status 1.","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":877,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1164,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":397,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":217,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":240,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/weather_etl_dag.py","lineno":27,"name":"run_extract_script"},{"filename":"/usr/local/lib/python3.12/subprocess.py","lineno":571,"name":"run"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-20T21:59:29.267292Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:29.282795Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:29.283858Z","level":"info","event":"Task:<Task(PythonOperator): extract_weather_data>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:59:29.284214Z","level":"info","event":"Failure caused by Command '['/home/airflow/.local/bin/python', '/opt/airflow/scripts/extract_weather.py', '/opt/airflow/scripts/city.list.json.gz']' returned non-zero exit status 1.","chan":"stdout","logger":"task"}

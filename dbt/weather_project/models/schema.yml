@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: staging
+    database: WEATHER_DB           # your Snowflake database name
+    schema: STAGING                # your Snowflake schema where raw data lands
+    tables:
+      - name: WEATHER_DATA        # your staging table name
+        columns:
+          - name: ID
+            description: Unique identifier for each weather record
+          - name: DETAILS_JSON_RAW
+            description: Raw JSON string of weather data (VARCHAR)
+          - name: RECORD_DATE
+            description: Timestamp when the record was inserted
+          - name: PROCESSING_STATUS
+            description: Status of the record processing

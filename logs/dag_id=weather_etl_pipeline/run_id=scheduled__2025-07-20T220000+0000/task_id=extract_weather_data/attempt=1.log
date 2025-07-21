@@ -1,0 +1,39 @@
+{"timestamp":"2025-07-20T22:00:01.398628","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T22:00:01.399234","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T22:00:01.433703Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:00:01.435135Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:00:01.435521Z","level":"info","event":"Current task name:extract_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:00:01.436022Z","level":"info","event":"Dag name:weather_etl_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.643450Z","level":"info","event":"Dropped and recreated staging.weather_data table.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.644238Z","level":"info","event":"Loaded 192 cities for country EG.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.644568Z","level":"info","event":"API status code for Zefta: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.644888Z","level":"info","event":"API status code for Wasit: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.645313Z","level":"info","event":"API status code for Toukh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.645635Z","level":"info","event":"API status code for Tanda: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.645959Z","level":"info","event":"API status code for Ţāmiyah: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.646270Z","level":"info","event":"API status code for Ţalkhā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.646587Z","level":"info","event":"API status code for Talā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.646858Z","level":"info","event":"API status code for Ţahţā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.647174Z","level":"info","event":"API status code for Sumusţā as Sulţānī: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.647458Z","level":"info","event":"API status code for Muḩāfaz̧at Sūhāj: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.647922Z","level":"info","event":"API status code for Sohag: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.648322Z","level":"info","event":"API status code for Siwa Oasis: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.648607Z","level":"info","event":"API status code for Sīdī Sālim: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.649025Z","level":"info","event":"API status code for Shirbīn: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.649350Z","level":"info","event":"API status code for Shibīn al Qanāṭir: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.649652Z","level":"info","event":"API status code for Shibīn al Kawm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.649936Z","level":"info","event":"API status code for Sharm el-Sheikh: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.650231Z","level":"info","event":"API status code for Muḩāfaz̧at Shamāl Sīnā’: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.650429Z","level":"info","event":"API status code for Sarābiyūm: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.650631Z","level":"info","event":"API status code for Samannūd: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.650807Z","level":"info","event":"API status code for Samālūţ: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.651256Z","level":"info","event":"API status code for Sāḩil Ţahţā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.651526Z","level":"info","event":"API status code for Rosetta: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.651890Z","level":"info","event":"API status code for Quwaysinā: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.652168Z","level":"info","event":"API status code for Quţūr: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.652485Z","level":"info","event":"Failed to insert data into Snowflake: 002003 (42S02): SQL compilation error:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:32.652669Z","level":"info","event":"Table 'WEATHER_DB.STAGING.WEATHER_DATA' does not exist or not authorized.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:33.028138","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-20T22:01:33.065695Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:33.066257Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T22:01:33.066921Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_weather_data>","chan":"stdout","logger":"task"}

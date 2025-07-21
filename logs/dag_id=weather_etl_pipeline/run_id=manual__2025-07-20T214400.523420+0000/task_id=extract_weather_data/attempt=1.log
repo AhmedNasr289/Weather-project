@@ -1,0 +1,8 @@
+{"timestamp":"2025-07-20T21:44:02.841482","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T21:44:02.842377","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T21:44:02.886668Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:44:02.887468Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:44:02.887901Z","level":"info","event":"Current task name:extract_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:44:02.888423Z","level":"info","event":"Dag name:weather_etl_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:47:53.606544Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"success"}},"logger":"task"}
+{"timestamp":"2025-07-20T21:47:53.620627Z","level":"error","event":"Task killed!","logger":"task"}
