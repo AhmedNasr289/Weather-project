@@ -31,7 +31,7 @@ def extract_and_load(city_list_path='city.list.json.gz', country='EG', limit=Non
     # Connect to Snowflake
     sf_conn = snowflake.connector.connect(
         user=os.getenv("SNOWFLAKE_USER", "AhmedNasr789"),
-        password=os.getenv("SNOWFLAKE_PASSWORD", "PP6uYJa67fCNeZS"),
+        password=os.getenv("SNOWFLAKE_PASSWORD", " "),
         account=os.getenv("SNOWFLAKE_ACCOUNT", "bhndecn-zmc99792"),
         warehouse=os.getenv("SNOWFLAKE_WAREHOUSE", "COMPUTE_WH"),
         database="WEATHER_DB",
