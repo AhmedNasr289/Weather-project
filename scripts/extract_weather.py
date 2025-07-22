@@ -59,7 +59,7 @@ def extract_and_load(city_list_path='city.list.json.gz', country='EG', limit=Non
     # Load cities from file, filtering by country
     cities = load_city_list(city_list_path, country=country, limit=limit)
     print(f"Loaded {len(cities)} cities for country {country}.")
-    api_key = os.getenv("OPENWEATHER_API_KEY", '5fd1117db022e76b3148b1db999c20f8')
+    api_key = os.getenv("OPENWEATHER_API_KEY", ' ')
     all_records = []
     for city in cities:
         if len(all_records) >= 1000:
